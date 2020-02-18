@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 4.2.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/books_31.5904px_1216655_easyicon.net.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/books_15.7952px_1216655_easyicon.net.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.css">
+
+
+<script id="hexo-configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    hostname: new URL('https://Dirt030.github.io').hostname,
+    root: '/',
+    scheme: 'Mist',
+    version: '7.7.0',
+    exturl: false,
+    sidebar: {"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},
+    copycode: {"enable":false,"show_result":false,"style":null},
+    back2top: {"enable":true,"sidebar":false,"scrollpercent":false},
+    bookmark: {"enable":false,"color":"#222","save":"auto"},
+    fancybox: true,
+    mediumzoom: false,
+    lazyload: false,
+    pangu: false,
+    comments: {"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},
+    algolia: {
+      appID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    },
+    localsearch: {"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},
+    path: '',
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}
+  };
+</script>
+
+  <meta name="description" content="一点一点地攒板子吧——">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Dirt030的ACM板子">
+<meta property="og:url" content="https://dirt030.github.io/2019/10/03/Dirt030%E7%9A%84ACM%E6%9D%BF%E5%AD%90/index.html">
+<meta property="og:site_name" content="宜芸殿">
+<meta property="og:description" content="一点一点地攒板子吧——">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2019-10-03T06:38:28.000Z">
+<meta property="article:modified_time" content="2020-01-09T12:52:48.077Z">
+<meta property="article:author" content="Dirt030">
+<meta property="article:tag" content="ACM">
+<meta name="twitter:card" content="summary">
+
+<link rel="canonical" href="https://dirt030.github.io/2019/10/03/Dirt030%E7%9A%84ACM%E6%9D%BF%E5%AD%90/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome: false,
+    isPost: true
+  };
+</script>
+
+  <title>Dirt030的ACM板子 | 宜芸殿</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-meta">
+
+    <div>
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">宜芸殿</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+  </div>
+
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+</div>
+
+
+<nav class="site-nav">
+  
+  <ul id="menu" class="menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-fw fa-home"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-fw fa-tags"></i>标签</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-fw fa-archive"></i>归档</a>
+
+  </li>
+  </ul>
+
+</nav>
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content">
+            
+
+  <div class="posts-expand">
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block " lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://dirt030.github.io/2019/10/03/Dirt030%E7%9A%84ACM%E6%9D%BF%E5%AD%90/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/Dirt030.gif">
+      <meta itemprop="name" content="Dirt030">
+      <meta itemprop="description" content="孤独不能压住我的骨 苦难不能阻挡我的路">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="宜芸殿">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          Dirt030的ACM板子
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2019-10-03 14:38:28" itemprop="dateCreated datePublished" datetime="2019-10-03T14:38:28+08:00">2019-10-03</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2020-01-09 20:52:48" itemprop="dateModified" datetime="2020-01-09T20:52:48+08:00">2020-01-09</time>
+              </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <p>一点一点地攒板子吧——<a id="more"></a></p>
+<h1 id="数论"><a href="#数论" class="headerlink" title="数论"></a>数论</h1><h2 id="线性筛"><a href="#线性筛" class="headerlink" title="线性筛"></a>线性筛</h2><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//1至MAXN范围内的质数</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> MAXN 100007;<span class="comment">//筛的范围 </span></span></span><br><span class="line"><span class="keyword">int</span> prime[MAXN];<span class="comment">//顺序质数表，计算结束以后用实际数量代替MAXN避免MLE</span></span><br><span class="line"><span class="keyword">int</span> prime_tot=<span class="number">0</span>;<span class="comment">//质数实际数量</span></span><br><span class="line"><span class="keyword">bool</span> check[MAXN];<span class="comment">//判断用质数表</span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">prime_get</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="built_in">memset</span>(check,<span class="number">0</span>,<span class="keyword">sizeof</span>(check));</span><br><span class="line">	check[<span class="number">0</span>]=check[<span class="number">1</span>]=<span class="number">1</span>;</span><br><span class="line">	<span class="keyword">int</span> i,j;</span><br><span class="line">	<span class="keyword">for</span>(i=<span class="number">2</span>;i&lt;=MAXN;i++)&#123;</span><br><span class="line">		<span class="keyword">if</span> (check[i]==<span class="number">0</span>) prime[prime_tot++]=i;</span><br><span class="line">		<span class="keyword">for</span>(j=<span class="number">0</span>;j&lt;prime_tot&amp;&amp;i*prime[j]&lt;=MAXN;j++)&#123;</span><br><span class="line">			check[i*prime[j]]=<span class="number">1</span>;</span><br><span class="line">			<span class="keyword">if</span> (i%prime[j]==<span class="number">0</span>) <span class="keyword">break</span>;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="最大公约数（GCD）"><a href="#最大公约数（GCD）" class="headerlink" title="最大公约数（GCD）"></a>最大公约数（GCD）</h2><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//a和b的最大公约数</span></span><br><span class="line"><span class="function">ll <span class="title">gcd</span><span class="params">(ll a,ll b)</span></span>&#123;</span><br><span class="line">	<span class="keyword">if</span> (!b) <span class="keyword">return</span> a;</span><br><span class="line">	<span class="keyword">return</span> gcd(b,a%b);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="快速幂"><a href="#快速幂" class="headerlink" title="快速幂"></a>快速幂</h2><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//a的b次方对m取模</span></span><br><span class="line"><span class="function">ll <span class="title">binaryPow</span><span class="params">(ll a,ll b,ll m)</span></span>&#123;</span><br><span class="line">	ll ans=<span class="number">1</span>;</span><br><span class="line">	<span class="keyword">while</span>(b&gt;<span class="number">0</span>)&#123;</span><br><span class="line">		<span class="keyword">if</span>(b&amp;<span class="number">1</span>) ans=(ans*a)%m;</span><br><span class="line">		a=(a*a)%m;</span><br><span class="line">		b&gt;&gt;=<span class="number">1</span>; </span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> ans;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h1 id="数据结构"><a href="#数据结构" class="headerlink" title="数据结构"></a>数据结构</h1><h2 id="树状数组"><a href="#树状数组" class="headerlink" title="树状数组"></a>树状数组</h2><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//区间求和，单点修改</span></span><br><span class="line"><span class="comment">//建树用修改操作就行</span></span><br><span class="line"><span class="comment">//这玩意儿从f[1]开始的，因为lowbit(0)会有问题</span></span><br><span class="line"><span class="comment">//求最低的为1的位</span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">lowbit</span><span class="params">(<span class="keyword">int</span> x)</span></span>&#123;</span><br><span class="line">    <span class="keyword">return</span> x&amp;(-x);</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//询问a[1]+a[2]+……+a[x]的值</span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">query</span><span class="params">(<span class="keyword">int</span> x)</span></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> sum=<span class="number">0</span>;</span><br><span class="line">    <span class="keyword">while</span>(x!=<span class="number">0</span>)&#123;</span><br><span class="line">        sum+=sum+f[x];</span><br><span class="line">        x-=lowbit(x);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> sum;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//修改a[x]增加d</span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">modify</span><span class="params">(<span class="keyword">int</span> x,<span class="keyword">int</span> d)</span></span>&#123;</span><br><span class="line">    <span class="keyword">while</span>(x&lt;=n)&#123;</span><br><span class="line">        f[x]+=d;</span><br><span class="line">        x+=lowbit(x);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="线段树"><a href="#线段树" class="headerlink" title="线段树"></a>线段树</h2><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//区间最值，单点修改</span></span><br><span class="line"><span class="comment">//递归建树，x为当前结点位置，l、r为范围</span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">build</span><span class="params">(<span class="keyword">int</span> x,<span class="keyword">int</span> l,<span class="keyword">int</span> r)</span></span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(l==r) f[x]=a[l];</span><br><span class="line">    <span class="keyword">else</span>&#123;</span><br><span class="line">        <span class="keyword">int</span> mid=(l+r)/<span class="number">2</span>;</span><br><span class="line">        build(x*<span class="number">2</span>,l,mid);</span><br><span class="line">        build(x*<span class="number">2</span>+<span class="number">1</span>,mid+<span class="number">1</span>,r);</span><br><span class="line">        f[x]=max(f[x*<span class="number">2</span>],f[x*<span class="number">2</span>+<span class="number">1</span>]);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//修改a[pos]增加d</span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">modify</span><span class="params">(<span class="keyword">int</span> x,<span class="keyword">int</span> l,<span class="keyword">int</span> r,<span class="keyword">int</span> pos,<span class="keyword">int</span> d)</span></span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(l==r) f[x]+=d;</span><br><span class="line">    <span class="keyword">else</span>&#123;</span><br><span class="line">        <span class="keyword">int</span> mid=(l+r)/<span class="number">2</span>;</span><br><span class="line">        <span class="keyword">if</span>(pos&lt;=mid) modify(x*<span class="number">2</span>,l,mid,pos,d);</span><br><span class="line">        <span class="keyword">else</span> modify(x*<span class="number">2</span>+<span class="number">1</span>,mid+<span class="number">1</span>,r,pos,d);</span><br><span class="line">        f[x]=max(f[x*<span class="number">2</span>],f[x*<span class="number">2</span>+<span class="number">1</span>]);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//询问a[ql]、a[ql+1]……a[qr]的最大值</span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">query</span><span class="params">(<span class="keyword">int</span> x,<span class="keyword">int</span> l,<span class="keyword">int</span> r,<span class="keyword">int</span> ql,<span class="keyword">int</span> qr)</span></span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(ql&lt;=l&amp;&amp;r&lt;=qr) <span class="keyword">return</span> f[x];</span><br><span class="line">    <span class="keyword">else</span>&#123;</span><br><span class="line">        <span class="keyword">int</span> mid=(l+r)/<span class="number">2</span>;</span><br><span class="line">        <span class="keyword">int</span> s=INT_MIN;</span><br><span class="line">        <span class="keyword">if</span>(ql&lt;=mid) s=max(s,query(x*<span class="number">2</span>,l,mid,ql,qr));</span><br><span class="line">        <span class="keyword">if</span>(mid+<span class="number">1</span>&lt;=qr) s=max(s,query(x*<span class="number">2</span>+<span class="number">1</span>,mid+<span class="number">1</span>,r,ql,qr));        </span><br><span class="line">        <span class="keyword">return</span> s;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//区间最值，区间修改</span></span><br><span class="line"><span class="comment">//建树略</span></span><br><span class="line"><span class="comment">//下传标记</span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">downtag</span><span class="params">(<span class="keyword">int</span> x)</span></span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(tag[x]==<span class="number">0</span>) <span class="keyword">return</span>;</span><br><span class="line">    tag[x*<span class="number">2</span>]+=tag[x];</span><br><span class="line">    f[x*<span class="number">2</span>]+=tag[x];</span><br><span class="line">    tag[x*<span class="number">2</span>+<span class="number">1</span>]+=tag[x];</span><br><span class="line">    f[x*<span class="number">2</span>+<span class="number">1</span>]+=tag[x];</span><br><span class="line">    tag[x]=<span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//修改a[ll]、a[ll+1]……a[rr]增加d</span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">modify</span><span class="params">(<span class="keyword">int</span> x,<span class="keyword">int</span> l,<span class="keyword">int</span> r,<span class="keyword">int</span> ll,<span class="keyword">int</span> rr,<span class="keyword">int</span> d)</span></span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(ll&lt;=l&amp;&amp;r&lt;=rr)&#123;</span><br><span class="line">        f[x]+=d;</span><br><span class="line">        tag[x]+=d;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span>&#123;</span><br><span class="line">        downtag(x);</span><br><span class="line">        <span class="keyword">int</span> mid=(l+r)/<span class="number">2</span>;</span><br><span class="line">        <span class="keyword">if</span>(ll&lt;=mid) modify(x*<span class="number">2</span>,l,mid,ll,rr,d);</span><br><span class="line">        <span class="keyword">if</span>(rr&gt;=mid+<span class="number">1</span>) modify(x*<span class="number">2</span>+<span class="number">1</span>,mid+<span class="number">1</span>,r,ll,rr,d);</span><br><span class="line">        f[x]=max(f[x*<span class="number">2</span>],f[x*<span class="number">2</span>+<span class="number">1</span>]);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//询问a[ql]、a[ql+1]……a[qr]的最大值</span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">query</span><span class="params">(<span class="keyword">int</span> x,<span class="keyword">int</span> l,<span class="keyword">int</span> r,<span class="keyword">int</span> ql,<span class="keyword">int</span> qr)</span></span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(ql&lt;=l&amp;&amp;r&lt;=qr) <span class="keyword">return</span> f[x];</span><br><span class="line">    <span class="keyword">else</span>&#123;</span><br><span class="line">        downtag(x);</span><br><span class="line">        <span class="keyword">int</span> mid=(l+r)/<span class="number">2</span>;</span><br><span class="line">        <span class="keyword">int</span> s=INT_MIN;</span><br><span class="line">        <span class="keyword">if</span>(ql&lt;=mid) s=max(s,query(x*<span class="number">2</span>,l,mid,ql,qr));</span><br><span class="line">        <span class="keyword">if</span>(mid+<span class="number">1</span>&lt;=qr) s=max(s,query(x*<span class="number">2</span>+<span class="number">1</span>,mid+<span class="number">1</span>,r,ql,qr));        </span><br><span class="line">        <span class="keyword">return</span> s;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<h1 id="区间最值查询（RMQ）"><a href="#区间最值查询（RMQ）" class="headerlink" title="区间最值查询（RMQ）"></a>区间最值查询（RMQ）</h1><h2 id="ST算法（倍增）（静态）"><a href="#ST算法（倍增）（静态）" class="headerlink" title="ST算法（倍增）（静态）"></a>ST算法（倍增）（静态）</h2><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//f[i][j]为从第i位开始的2^j位中的最大值</span></span><br><span class="line"><span class="comment">//f[i][0]为给定数据</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> MAXN 1000006</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> LOG2MAXN 20</span></span><br><span class="line"><span class="keyword">int</span> f[MAXN][LOG2MAXN];<span class="comment">//MAXN为数据范围，LOG2MAXN为MAXN对2取对数</span></span><br><span class="line"><span class="comment">//预处理</span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">preST</span><span class="params">(<span class="keyword">int</span> len)</span></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> m=<span class="built_in">log</span>(len)/<span class="built_in">log</span>(<span class="number">2</span>)+<span class="number">1</span>;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> j=<span class="number">1</span>;j&lt;m;j++)</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;=(len-(<span class="number">1</span>&lt;&lt;j)+<span class="number">1</span>);i++)</span><br><span class="line">            f[i][j]=max(f[i][j<span class="number">-1</span>],f[i+(<span class="number">1</span>&lt;&lt;(j<span class="number">-1</span>))][j<span class="number">-1</span>]);</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//查询f[l][0]、f[l+1][0]、……、f[r][0]的RMQ</span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">searchST</span><span class="params">(<span class="keyword">int</span> l,<span class="keyword">int</span> r)</span></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> k=<span class="built_in">log</span>(r-l+<span class="number">1</span>)/<span class="built_in">log</span>(<span class="number">2</span>);</span><br><span class="line">    <span class="keyword">return</span> max(f[l][k],f[r-(<span class="number">1</span>&lt;&lt;k)+<span class="number">1</span>][k]);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h1 id="最长上升子序列（LIS）"><a href="#最长上升子序列（LIS）" class="headerlink" title="最长上升子序列（LIS）"></a>最长上升子序列（LIS）</h1><h2 id="单调性-二分（nlgn）"><a href="#单调性-二分（nlgn）" class="headerlink" title="单调性+二分（nlgn）"></a>单调性+二分（nlgn）</h2><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//有DP和Sort+LCS的做法，但我懒得写了</span></span><br><span class="line"><span class="comment">//最长单调不下降子序列</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> MAXN 1000006<span class="comment">//数据范围</span></span></span><br><span class="line"><span class="keyword">int</span> a[MAXN],f[MAXN];</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">calcLIS</span><span class="params">(<span class="keyword">int</span> n)</span></span>&#123;</span><br><span class="line">	<span class="keyword">int</span> pos,len=<span class="number">0</span>;</span><br><span class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;n;i++)&#123;</span><br><span class="line">		pos=lower_bound(f,f+len,a[i])-f;<span class="comment">//其他类型的序列需要重写二分函数</span></span><br><span class="line">		f[pos]=a[i];</span><br><span class="line">		<span class="keyword">if</span>(pos==len) len++;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> len;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="二维带权最长上升子序列"><a href="#二维带权最长上升子序列" class="headerlink" title="*二维带权最长上升子序列"></a>*二维带权最长上升子序列</h2><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//ICPC Latin American Regional – 2017</span></span><br><span class="line"><span class="comment">//Problem F – Fundraising</span></span><br></pre></td></tr></table></figure>
+
+
+    </div>
+
+    
+    
+    
+        
+
+<div>
+<ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>本文作者： </strong>Dirt030
+  </li>
+  <li class="post-copyright-link">
+    <strong>本文链接：</strong>
+    <a href="https://dirt030.github.io/2019/10/03/Dirt030%E7%9A%84ACM%E6%9D%BF%E5%AD%90/" title="Dirt030的ACM板子">https://dirt030.github.io/2019/10/03/Dirt030的ACM板子/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fa fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+</div>
+
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/ACM/" rel="tag"># ACM</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2019/09/16/%E4%BA%8C%E6%AC%A1%E5%BB%BA%E7%AB%99%E5%A4%87%E5%BF%98%E5%BD%95/" rel="prev" title="二次建站备忘录">
+      <i class="fa fa-chevron-left"></i> 二次建站备忘录
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/2019/10/15/Dirt030%E7%9A%84%E8%B5%9B%E5%90%8E%E6%80%BB%E7%BB%93/" rel="next" title="Dirt030的赛后总结">
+      Dirt030的赛后总结 <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+  </div>
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let activeClass = CONFIG.comments.activeClass;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#数论"><span class="nav-number">1.</span> <span class="nav-text">数论</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#线性筛"><span class="nav-number">1.1.</span> <span class="nav-text">线性筛</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#最大公约数（GCD）"><span class="nav-number">1.2.</span> <span class="nav-text">最大公约数（GCD）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#快速幂"><span class="nav-number">1.3.</span> <span class="nav-text">快速幂</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#数据结构"><span class="nav-number">2.</span> <span class="nav-text">数据结构</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#树状数组"><span class="nav-number">2.1.</span> <span class="nav-text">树状数组</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#线段树"><span class="nav-number">2.2.</span> <span class="nav-text">线段树</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#区间最值查询（RMQ）"><span class="nav-number">3.</span> <span class="nav-text">区间最值查询（RMQ）</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#ST算法（倍增）（静态）"><span class="nav-number">3.1.</span> <span class="nav-text">ST算法（倍增）（静态）</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#最长上升子序列（LIS）"><span class="nav-number">4.</span> <span class="nav-text">最长上升子序列（LIS）</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#单调性-二分（nlgn）"><span class="nav-number">4.1.</span> <span class="nav-text">单调性+二分（nlgn）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#二维带权最长上升子序列"><span class="nav-number">4.2.</span> <span class="nav-text">*二维带权最长上升子序列</span></a></li></ol></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="Dirt030"
+      src="/images/Dirt030.gif">
+  <p class="site-author-name" itemprop="name">Dirt030</p>
+  <div class="site-description" itemprop="description">孤独不能压住我的骨 苦难不能阻挡我的路</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">7</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">4</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+<div class="copyright">
+  
+  &copy; 2018 – 
+  <span itemprop="copyrightYear">2020</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Dirt030</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> 强力驱动 v4.2.0
+  </div>
+  <span class="post-meta-divider">|</span>
+  <div class="theme-info">主题 – <a href="https://mist.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Mist</a> v7.7.0
+  </div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  
+  <script color='122,115,116' opacity='0.5' zIndex='-1' count='150' src="/lib/canvas-nest/canvas-nest.min.js"></script>
+  <script src="/lib/anime.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
+  <script src="//cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/muse.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+</body>
+</html>
